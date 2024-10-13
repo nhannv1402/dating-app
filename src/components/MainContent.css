@@ -6,7 +6,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  background-image: url('D:\Bondify\dating-app\src\assets\theme.jpg');
+  background-image: url('/src/assets/theme.jpg');
   /* background: linear-gradient(to bottom, #340048, #66008d); */
   position: relative;
 }
