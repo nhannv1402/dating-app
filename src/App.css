@@ -1,5 +1,13 @@
-.App {
+ .App {
+  width: 100%;
+  height: 100%;
   text-align: center;
+  display: flex;
+  width: 1728px;
+  height: 972px;
+  align-items: flex-start;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.64) 100%), url() lightgray 50% / cover no-repeat;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -36,3 +44,42 @@
     transform: rotate(360deg);
   }
 }
+
+html, body, #root, .app-container {
+  height: 100%; /* Đặt chiều cao của toàn bộ trang */
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Toàn bộ chiều cao của màn hình */
+}
+
+.row-container {
+  flex: 1; /* Đặt chiều cao của các row tự điều chỉnh chiếm toàn bộ không gian */
+}
+
+.navigation-bar {
+  background-color: #333;
+  color: white;
+  height: 60px; /* Đặt chiều cao cố định cho thanh navigation */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.custom {
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+

@@ -1,0 +1,155 @@
+.main-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  background-image: url('D:\Bondify\dating-app\src\assets\theme.jpg');
+  /* background: linear-gradient(to bottom, #340048, #66008d); */
+  position: relative;
+}
+
+.profile-section {
+  background-color: white;
+  flex-direction: column;
+  display: flex;
+  width: 80%;
+  height: 90%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  border-radius: 41px;
+}
+
+.profile-picture-and-detail {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 20%;
+}
+
+.profile-picture {
+
+  width: 150px;
+  height: 150px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 25px;
+}
+
+.profile-details {
+  font-weight: 400;
+  text-align: left;
+  justify-content: center;
+  width: 93%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: large;
+}
+
+.detail-line {
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.divider {
+  width: 100%;
+  border: 1px solid #181717;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 87%;
+  padding: 20 px;
+}
+
+.main-image {
+  width: 95%;
+  aspect-ratio: 5 / 3.3;
+  background-color: #a7a5a5;
+  border-radius: 16px;
+  position: relative;
+}
+
+.action-buttons {
+  position: fixed;
+  bottom: 0;
+  width: 40%;
+  padding: 15px;
+  background-color: rgba(17, 17, 17, 0.90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.action-button {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background-color: transparent;
+  background-size: cover; /* Đảm bảo ảnh lấp đầy nút */
+  background-position: center; /* Căn giữa ảnh */
+  background-repeat: no-repeat; /* Không lặp lại ảnh */
+  cursor: pointer;
+  border: none;
+  object-fit: cover;
+}
+
+.action-button:hover {
+  opacity: 0.7; /* Mờ nhẹ khi hover, nhưng không biến mất */
+  visibility: visible; /* Đảm bảo không ẩn ảnh */
+  display: block; /* Đảm bảo ảnh không bị xóa khỏi DOM */
+
+}
+
+.dislike-button {
+  background-image: url('https://img.icons8.com/ios-filled/50/FFFFFF/return.png');
+}
+
+.like-button {
+  background-image: url('https://img.icons8.com/material/24/F25081/like--v1.png');
+}
+
+.ban-button {
+  background-image: url('https://img.icons8.com/ios-filled/50/FFFFFF/delete-sign--v1.png');
+}
+
+.gift-button {
+  background-image: url('https://img.icons8.com/windows/32/FFFFFF/gift.png');
+}
+
+.moreinfor-button {
+  background-image: url('https://img.icons8.com/ios/50/FFFFFF/info--v1.png');
+}
+
+.upcoming-partners {
+  margin-top: 10px;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.partner-image {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 50%;
+}

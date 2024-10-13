@@ -1,0 +1,77 @@
+.nav-field {
+    max-width: 100%;
+    height: 100%;
+    background: white;
+    gap: 45px;
+  }
+  
+  .brand-name {
+    color: #AC4295;
+    font-size: 40px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  .nav-buttons {
+    gap: 30px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    padding-left: 30px !important;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  
+  .nav-item span {
+    font-size: 18.67px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .brand-name:hover{
+    background-color: white !important;
+  }
+  
+  button{
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 8px !important;
+  }
+
+  .nav-item{
+    padding: 5px ;
+  }
+
+  .active:hover {
+    background: rgba(183, 31, 255, 0.35);
+  }
+  
+  .nav-item img {
+    max-width: 22px;
+    max-height: 22px;
+  }
+  
+  .btn-premium {
+    margin-top: 350px !important;
+    background: #EFA41A !important;
+    border-radius: 33px !important;
+    border: 1.27px solid white !important;
+    color: #592854 !important;
+    font-size: 20px !important;
+    font-weight: 90px !important;
+    font-family: 'Julius Sans One', sans-serif !important;
+    width: 206px !important;
+    height: 46px !important;
+  }
+  
+  .btn-premium:hover {
+    background-color: #d58e16 !important;
+  }
+  
