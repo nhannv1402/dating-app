@@ -146,6 +146,9 @@
   justify-content: space-between;
   padding: 10px;
 }
+.upcoming-partners img {
+  filter: blur(3px);
+}
 
 .partner-image {
   width: 100px;

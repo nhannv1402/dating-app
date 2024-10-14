@@ -2,6 +2,7 @@ import React from 'react';
 import NavigationField from './components/NavigationField';
 import MainContent from './components/MainContent';
 import SideBar from './components/SideBar';
+import Advanced from './components/Advanced';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';  // Import các thành phần từ react-bootstrap
@@ -38,7 +39,7 @@ function App() {
           <NavigationField />
         </Col>
         <Col xs={8} className="custom" > {/* MainContent chiếm 8 phần */}
-          <MainContent />
+          <Advanced />
         </Col>
         <Col xs={2} className="custom"> {/* Có thể thêm phần sidebar nếu cần, hoặc để cân bằng */}
           <SideBar />
