@@ -12,6 +12,7 @@
 }
 
 .profile-section {
+  z-index: 2;
   background-color: white;
   flex-direction: column;
   display: flex;
@@ -80,6 +81,7 @@
 }
 
 .action-buttons {
+  z-index: 3;
   position: fixed;
   bottom: 0;
   width: 40%;
@@ -145,6 +147,10 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
+}
+
+.upcoming-partners img {
+  filter: blur(3px);
 }
 
 .partner-image {
